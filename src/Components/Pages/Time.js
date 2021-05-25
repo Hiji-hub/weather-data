@@ -24,8 +24,8 @@ class Time extends Component {
         return(
             <div className='container'>
                 <div className='content-time'>
-                  <h1 style={{fontSize: '50px'}}>ВРЕМЯ</h1>
-                  <h1 style={{fontSize:'70px'}}>Сейчас: {this.state.time}</h1>
+                  <h1 className='time-title' style={{fontSize: '50px'}}>ВРЕМЯ</h1>
+                  <h1 className='time-value' style={{fontSize:'70px'}}>Сейчас: {this.state.time}</h1>
                 </div>
             </div>
         )
