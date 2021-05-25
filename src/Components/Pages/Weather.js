@@ -34,7 +34,7 @@ function Weather() {
     return(
         <div className='container'>
             <div className='content'>
-                <h1 style={{textAlign: 'center', fontSize: '50px', margin: '0'}}>
+                <h1 className='weather-title' style={{textAlign: 'center', fontSize: '50px', margin: '0'}}>
                     ПОГОДА
                 </h1>
                 <div className='form'>
@@ -49,5 +49,5 @@ function Weather() {
         </div>
     )
 }
-//Math.round(weather['main']['temp']-273) + '°C'
+
 export default Weather
