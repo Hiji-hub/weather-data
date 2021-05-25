@@ -1,0 +1,134 @@
+body {
+  background: radial-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5) 80%,rgba(0, 0, 0, 0.4)), url(./background.jpeg);
+  background-size: contain;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+}
+.links {
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  width: 60vw;
+  height: 75px;
+  margin:0 auto;
+  align-items: center;
+  justify-content:space-between;
+  border-radius: 0 0 60px 60px;
+}
+.nav-btn {
+  background-color: rgba(59, 55, 55, 0.5);
+  backdrop-filter: blur(1rem);
+  width: 49.8%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+}
+.nav-btn:first-child {
+  border-radius: 0 0 0 50px !important;
+}
+.nav-btn:last-child {
+  border-radius: 0 0 50px 0 !important;
+}
+.active {
+  background-color: rgba(34, 31, 31, 0.5);
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(34, 31, 31, 0.5);
+  border-radius: 30px;
+  width: 500px;
+  padding-top: 50px;
+  text-align: center;
+  backdrop-filter: blur(1rem);
+}
+.content-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(34, 31, 31, 0.5);
+  border-radius: 30px;
+  width: 600px;
+  padding: 50px;
+  text-align: center;
+  backdrop-filter: blur(1rem);
+}
+.content-time>h1 {
+  margin: 0 0 30px;
+}
+.content-time>h1:last-child {
+  margin: 0;
+}
+.form {
+  margin-bottom: 15px;
+}
+.weather-block {
+  width: 100%;
+}
+.weather-card {
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  height: 150px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(34, 31, 31, 0.0);
+  border-radius: 0 0 30px 30px;
+  color: white;
+  border-top: rgba(131, 122, 122, 0.5) solid 4px;
+}
+.weather-card>img {
+  width: 120px;
+}
+.weather-text {
+  width: 100px;
+  text-align: center;
+}
+.weather-text>h2 {
+  font-size: 33px;
+}
+.weather-text>h3 {
+  font-size: 25px;
+}
+.town {
+  padding: 0;
+  width: 250px;
+  height: 30px;
+  border-radius: 30px;
+  border: none; 
+  text-align: center;
+}
+.town-btn {
+  padding: 0;
+  border: none;
+  margin-left: 10px;
+  width: 100px;
+  height: 32px;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
