@@ -1,6 +1,6 @@
 body {
   background: radial-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5) 80%,rgba(0, 0, 0, 0.4)), url(./background.jpeg);
-  background-size: contain;
+  background-size: cover;
 }
 html, body {
   margin: 0;
@@ -99,7 +99,7 @@ header {
   border-radius: 0 0 30px 30px;
   color: white;
   border-top: rgba(131, 122, 122, 0.5) solid 4px;
-  padding: 10px;
+  padding-bottom: 10px;
 }
 .weather-card>img {
   width: 120px;
@@ -133,3 +133,80 @@ header {
   color: black;
   font-weight: bold;
 }
+@media (max-width: 1024px) {
+  .links {
+    width: 80vw;
+  }
+}
+@media (max-width:768px) {
+  .links {
+    width: 90vw;
+  }
+  .content-time {
+    width: 70vw;
+  }
+  .start-title {
+    font-size: 30px !important;
+  }
+  .time-title {
+    font-size: 40px !important;
+  }
+  .time-value {
+    font-size: 50px !important;
+  }
+  .content {
+    width: 80vw;
+  }
+}
+@media (max-width:560px) {
+  .time-title {
+    font-size: 30px !important;
+  }
+  .time-value {
+    font-size: 40px !important;
+  }
+  .town {
+    width: 60%;
+  }
+  .town-btn {
+    width: 35%;
+  }
+  .content {
+    padding-top: 20px;
+  }
+  .weather-card {
+    margin-top: 10px;
+  }
+}
+@media (max-width:370px) {
+  .town {
+    width: 120px;
+  }
+  .town-btn {
+    width: 70px;
+    font-size: 10px;
+  }
+  .weather-title {
+    font-size: 25px !important;
+    margin: 10px 0;
+  }
+  .form>p {
+    font-size: 20px !important;
+    margin: 5px 0;
+  }
+  .weather-text>h2 {
+    font-size: 25px;
+  }
+  .weather-text>h3 {
+    font-size: 15px;
+  }
+}
+@media (max-height:600px) {
+  .container {
+    height: 600px;
+  }
+  header {
+    position: relative;
+  }
+}
+
