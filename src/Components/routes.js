@@ -7,16 +7,16 @@ import Weather from './Pages/Weather'
 export const useRoutes = () => {
     return (
         <Switch>
-            <Route path="/weather-data" exact>
+            <Route path="/" exact>
                 <StartPage/>
             </Route>
-            <Route path="/weather-data/time" exact>
+            <Route path="/time" exact>
                 <Time/>
             </Route>
-            <Route path="/weather-data/weather" exact>
+            <Route path="/weather" exact>
                 <Weather/>
             </Route>
-            <Redirect to="/weather-data"/>
+            <Redirect to="/"/>
         </Switch>
     )
 }
