@@ -99,6 +99,7 @@ header {
   border-radius: 0 0 30px 30px;
   color: white;
   border-top: rgba(131, 122, 122, 0.5) solid 4px;
+  padding: 10px;
 }
 .weather-card>img {
   width: 120px;
@@ -108,10 +109,10 @@ header {
   text-align: center;
 }
 .weather-text>h2 {
-  font-size: 33px;
+  font-size: 30px;
 }
 .weather-text>h3 {
-  font-size: 25px;
+  font-size: 20px;
 }
 .town {
   padding: 0;
