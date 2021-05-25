@@ -3,14 +3,14 @@ import {useRoutes} from './Components/routes'
 
 function App() {
   const routes = useRoutes()
-
+  
   return (
     <div>
       <Router>
       <header>
         <div className='links'>
-          <NavLink className='nav-btn' to="/weather-data/time">Время</NavLink>
-          <NavLink className='nav-btn' to="/weather-data/weather">Погода</NavLink>
+          <NavLink className='nav-btn' to="/time">Время</NavLink>
+          <NavLink className='nav-btn' to="/weather">Погода</NavLink>
         </div>
       </header>
         {routes}
