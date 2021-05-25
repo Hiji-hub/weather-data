@@ -1,5 +1,5 @@
 body {
-  background: radial-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.5) 80%,rgba(0, 0, 0, 0.4)), url(./background.jpeg);
+  background: radial-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3) 80%,rgba(0, 0, 0, 0.3)), url(./background.jpeg);
   background-size: cover;
 }
 html, body {
