@@ -40,7 +40,7 @@ function Weather() {
                 <div className='form'>
                     <p  style={{textAlign: 'center', fontSize: '30px'}}>Введите свой город:</p>
                     <input className='town' type='text' onChange={changeHandler} value={town}/>
-                    <input className='town-btn' type='submit' onClick={getWeather}/>
+                    <input className='town-btn' type='submit' onClick={getWeather} value='Отправить'/>
                 </div>
                 <div className='weather-block'>
                     {weather.length===0? '': <WeaterCard weather={weather}/>}
