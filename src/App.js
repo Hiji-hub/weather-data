@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, NavLink} from 'react-router-dom'
+import {HashRouter as Router, NavLink} from 'react-router-dom'
 import {useRoutes} from './Components/routes'
 
 function App() {
